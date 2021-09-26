@@ -1,0 +1,22 @@
+{
+  "name": "vaymoodu",
+  "version": "1.0.0",
+  "description": "shutup vaymood mindathe",
+  "main": "index.js",
+  "repository": "https://github.com/Roshanjossey/discord-mute-voice-channel-bot",
+  "author": "sudo !!",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "16.10.0"
+  },
+  "dependencies": {
+    "discord-buttons": "^4.0.0",
+    "discord.js": "13.1.0",
+    "discordaudio": "2.0.0",
+    "ffmpeg-static": "^4.4.0"
+  }
+}
