@@ -8,7 +8,7 @@ const {Client, Intents} = require('discord.js');
 
 const config = {
     prefix: '!',
-    token: 'ODkxMDU5NjY1MTAwNzUwOTY4.YU41-w.CBa0rs_kRWas0JJ04f5KbXWFHVI'
+    token: process.env.DISCORD_BOT_TOKEN
 };
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_VOICE_STATES] });
